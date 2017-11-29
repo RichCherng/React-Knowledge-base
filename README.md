@@ -10,3 +10,4 @@ Whenever `this.setState` is called, an update to the component is scheduled, cau
 
 ### Note
 - JS use 2 spaces instead of tab
+- It is, however, conventional in React apps to use on* names for the attributes and handle* for the handler methods.
