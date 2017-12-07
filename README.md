@@ -18,6 +18,11 @@ https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture
 
 
 
+# Handling 'this', how to bind to method
+https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#autobinding
+
+
+
  
 
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
