@@ -30,6 +30,11 @@
 
  
 
+
+# Using React with Webpack
+https://blog.risingstack.com/using-react-with-webpack-tutorial/
+
+
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
 
  - NEVER mutate `this.state` directly, as calling `setState()` afterwards may replace the mutation you made. Treat this.state as if it were immutable.
