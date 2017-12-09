@@ -1,28 +1,28 @@
 # React-Tutorial
 
-### Quick Start 
+### Quick Start # [checkbox:unchecked]
 https://reactjs.org/docs/installation.html#creating-a-new-application
 
 
-# Quick Start Tutorial: React Redux
+# Quick Start Tutorial: React Redux # [checkbox:unchecked]
 https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
 
-# Quick Start Tutorial: Universal React, with Server Side Rendering
+# Quick Start Tutorial: Universal React, with Server Side Rendering # [checkbox:unchecked]
 https://medium.com/@firasd/quick-start-tutorial-universal-react-with-server-side-rendering-76fe5363d6e
 
-# Real time twitter Stream:
+# Real time twitter Stream: # [checkbox:unchecked]
 https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
 
-# Getting to know Flux:
+# Getting to know Flux: # [checkbox:unchecked]
 https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture
 
 
 
-# Handling 'this', how to bind to method
+# Handling 'this', how to bind to method # [checkbox:unchecked]
 https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#autobinding
 
 
-# Create React App with an Express Backend
+# Create React App with an Express Backend # [checkbox:unchecked]
 https://daveceddia.com/create-react-app-express-backend/
 
 
