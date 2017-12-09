@@ -1,7 +1,7 @@
 # React-Tutorial
 
 ### Quick Start
-- [ ] https://reactjs.org/docs/installation.html#creating-a-new-application
+- [X] https://reactjs.org/docs/installation.html#creating-a-new-application
 
 
 # Quick Start Tutorial: React Redux
@@ -19,13 +19,14 @@
 
 
 # Handling 'this', how to bind to method 
-- [ ] https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#autobinding
+- [X] https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#autobinding
 
 
 # Create React App with an Express Backend 
 - [ ] https://daveceddia.com/create-react-app-express-backend/
 
-
+# React Tutorial CommentBox
+- [X] https://medium.com/@gsuppy/coding-an-interactive-comment-box-with-react-js-50d7d20587d8
 
  
 
