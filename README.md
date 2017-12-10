@@ -38,6 +38,8 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 
 
 
+
+
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
 
  - NEVER mutate `this.state` directly, as calling `setState()` afterwards may replace the mutation you made. Treat this.state as if it were immutable.
@@ -53,5 +55,25 @@ Whenever `this.setState` is called, an update to the component is scheduled, cau
 
 
 ### Note
+
+#### Difference Between import React and import { Component } syntax
+https://stackoverflow.com/questions/41768205/difference-between-import-react-and-import-component-syntax
+
+Default import. Default imports are exprted with `export default ...`. There can be only a single default export.
+``` javascript
+import React from 'react'
+```
+
+Member import (named import). Member imports are exported with `export ...`. There can be many member exports.
+```javascript
+ import { Component } from 'react'
+```
+
+You can import both by using this synctax:
+```javascript
+import React, { Component } from 'react';
+```
+
+
 - JS use 2 spaces instead of tab
 - It is, however, conventional in React apps to use on* names for the attributes and handle* for the handler methods.
