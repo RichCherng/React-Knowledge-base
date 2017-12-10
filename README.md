@@ -145,6 +145,9 @@ App.defaultProps = {
    propString: "String value..."
 }
 ```
+we have use **isRequired** when validating **propArray** and **propBool**. This will give us an error, if one of those two don't exist. If we delete **propArray: [1,2,3,4,5]** from the **App.defaultProps** object, the console will log a warning.
+
+If we set the value of **propArray: 1**, React will warn us that the propType validation has failed, since we need an array and we got a number.
 ###################################################################
 - The main difference between state and props is that props are immutable. This is why the container component should define the state that can be updated and changed, while the child components should only pass data from the state using props.
 - #### default props
