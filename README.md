@@ -3,12 +3,12 @@
 ### Quick Start
 - [X] https://reactjs.org/docs/installation.html#creating-a-new-application
 
-
-# Quick Start Tutorial: React Redux
-- [ ] https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
-
-# Quick Start Tutorial: Universal React, with Server Side Rendering 
-- [ ] https://medium.com/@firasd/quick-start-tutorial-universal-react-with-server-side-rendering-76fe5363d6e
+# React Tutorial CommentBox
+- [X] https://medium.com/@gsuppy/coding-an-interactive-comment-box-with-react-js-50d7d20587d8
+  ## Quick Start Tutorial: React Redux
+  - [ ] https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
+  ## Quick Start Tutorial: Universal React, with Server Side Rendering 
+  - [ ] https://medium.com/@firasd/quick-start-tutorial-universal-react-with-server-side-rendering-76fe5363d6e
 
 # Real time twitter Stream: 
 - [ ] https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
@@ -25,11 +25,11 @@
 # Create React App with an Express Backend 
 - [ ] https://daveceddia.com/create-react-app-express-backend/
 
-# React Tutorial CommentBox
-- [X] https://medium.com/@gsuppy/coding-an-interactive-comment-box-with-react-js-50d7d20587d8
 
 # Setup React without `create-react-app` from scratch
 - [x] https://medium.com/@robhitt/react-from-scratch-575d1e570b85
+  ## Implementing redux and react-router v4 in your react app
+- [ ] http://manojsinghnegi.com/blog/2017/09/03/Implementing-redux-and-react-router-v4-in-your-react-app/
 
 
 # Using React with Webpack
