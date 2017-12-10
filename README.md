@@ -104,6 +104,6 @@ import {MyClass1, MyClass2} from './MyClass.react'
 ```
 #########################################################################
 
-
+- The main difference between state and props is that props are immutable. This is why the container component should define the state that can be updated and changed, while the child components should only pass data from the state using props.
 - JS use 2 spaces instead of tab
 - It is, however, conventional in React apps to use on* names for the attributes and handle* for the handler methods.
