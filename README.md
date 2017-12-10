@@ -56,9 +56,9 @@ Whenever `this.setState` is called, an update to the component is scheduled, cau
 `functional components` Rather than define a class extending React.Component, simply write a function that takes props and returns what should be rendered.
 
 
-### Note
+### Note:
 
-#### Difference Between import React and import { Component } syntax
+### Difference Between import React and import { Component } syntax
 https://stackoverflow.com/questions/41768205/difference-between-import-react-and-import-component-syntax
 https://stackoverflow.com/questions/33956201/how-to-import-and-export-components-using-react-es6-webpack
 Default import. Default imports are exprted with `export default ...`. There can be only a single default export.
@@ -103,6 +103,48 @@ And now you can use the following syntax to import those files:
 import {MyClass1, MyClass2} from './MyClass.react'
 ```
 #########################################################################
+
+### Validating Props
+- https://www.tutorialspoint.com/reactjs/reactjs_props_validation.htm
+App.propTypes is used for props validation. If some of the props aren't using the correct type that we assigned, we will get a console warning. After we specify validation patterns, we will set App.defaultProps.
+```javascript
+import PropTypes from 'prop-types';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+class App extends React.Component {
+   render() {
+      return ( 
+         <div>
+            <h1> Hello, {this.props.name} </h1>
+            <h3>Array: {this.props.propArray}</h3>			
+            <h3>Bool: {this.props.propBool ? "True..." : "False..."}</h3>
+            <h3>Func: {this.props.propFunc(3)}</h3>
+            <h3>Number: {this.props.propNumber}</h3>
+            <h3>String: {this.props.propString}</h3>
+         </div>
+      );
+   }
+}
+App.propTypes = {
+   name: PropTypes.string,
+   propArray: PropTypes.array.isRequired,
+   propBool: PropTypes.bool.isRequired,
+   propFunc: PropTypes.func,
+   propNumber: PropTypes.number,
+   propString: PropTypes.string,
+};
+App.defaultProps = {
+   name: 'Tutorialspoint.com',
+   propArray: [1, 2, 3, 4, 5],
+   propBool: true,
+   propFunc: function(e) {
+      return e
+   },
+   propNumber: 1,
+   propString: "String value..."
+}
+```
 
 - The main difference between state and props is that props are immutable. This is why the container component should define the state that can be updated and changed, while the child components should only pass data from the state using props.
 - #### default props
