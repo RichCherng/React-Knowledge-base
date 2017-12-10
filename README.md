@@ -40,7 +40,9 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 
 
 
+## Note:
 
+- **setState()** method is used to update the state of the component. This method will not replace the state, but only add changes to the original state.
 
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
 
@@ -55,8 +57,6 @@ Whenever `this.setState` is called, an update to the component is scheduled, cau
 
 `functional components` Rather than define a class extending React.Component, simply write a function that takes props and returns what should be rendered.
 
-
-### Note:
 
 ### Difference Between import React and import { Component } syntax
 https://stackoverflow.com/questions/41768205/difference-between-import-react-and-import-component-syntax
