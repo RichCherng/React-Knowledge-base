@@ -58,7 +58,7 @@ Whenever `this.setState` is called, an update to the component is scheduled, cau
 
 #### Difference Between import React and import { Component } syntax
 https://stackoverflow.com/questions/41768205/difference-between-import-react-and-import-component-syntax
-
+https://stackoverflow.com/questions/33956201/how-to-import-and-export-components-using-react-es6-webpack
 Default import. Default imports are exprted with `export default ...`. There can be only a single default export.
 ``` javascript
 import React from 'react'
@@ -73,6 +73,34 @@ You can import both by using this synctax:
 ```javascript
 import React, { Component } from 'react';
 ```
+
+To export a single component in ES6, you can use `export default` as follows:
+```javascript
+class MyClass extends Component {
+ ...
+}
+
+export default MyClass;
+```
+And now you can use the following syntax to import that module:
+```javascript
+import MyClass from './MyClass.react'
+```
+if you are looking to export multiple components from a single file the declaration would look something like this:
+```javascript
+export class MyClass extends Component {
+...
+}
+
+export Class MyClass extends Component {
+...
+}
+```
+And now you can use the following syntax to import those files:
+```javascript
+import {MyClass1, MyClass2} from './MyClass.react'
+```
+#########################################################################
 
 
 - JS use 2 spaces instead of tab
