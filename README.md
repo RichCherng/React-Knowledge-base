@@ -16,6 +16,8 @@
 # Getting to know Flux: 
 - [ ] https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture
 
+### React Tutorial Point
+https://www.tutorialspoint.com/reactjs/index.htm
 
 
 # Handling 'this', how to bind to method 
