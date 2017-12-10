@@ -57,6 +57,10 @@ Whenever `this.setState` is called, an update to the component is scheduled, cau
 
 `functional components` Rather than define a class extending React.Component, simply write a function that takes props and returns what should be rendered.
 
+### Lifecycle 
+- https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm
+- https://reactjs.org/docs/react-component.html
+
 
 ### Difference Between import React and import { Component } syntax
 https://stackoverflow.com/questions/41768205/difference-between-import-react-and-import-component-syntax
