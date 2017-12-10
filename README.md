@@ -28,11 +28,14 @@
 # React Tutorial CommentBox
 - [X] https://medium.com/@gsuppy/coding-an-interactive-comment-box-with-react-js-50d7d20587d8
 
- 
+# Setup React without `create-react-app` from scratch
+- [x] https://medium.com/@robhitt/react-from-scratch-575d1e570b85
 
 
 # Using React with Webpack
 https://blog.risingstack.com/using-react-with-webpack-tutorial/
+
+
 
 
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
