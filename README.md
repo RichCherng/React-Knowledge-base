@@ -1,29 +1,42 @@
 # React-Tutorial
 
-### Quick Start 
-https://reactjs.org/docs/installation.html#creating-a-new-application
+### Quick Start
+- [X] https://reactjs.org/docs/installation.html#creating-a-new-application
 
 
 # Quick Start Tutorial: React Redux
-https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
+- [ ] https://medium.com/@firasd/quick-start-tutorial-using-redux-in-react-apps-89b142d6c5c1
 
-# Quick Start Tutorial: Universal React, with Server Side Rendering
-https://medium.com/@firasd/quick-start-tutorial-universal-react-with-server-side-rendering-76fe5363d6e
+# Quick Start Tutorial: Universal React, with Server Side Rendering 
+- [ ] https://medium.com/@firasd/quick-start-tutorial-universal-react-with-server-side-rendering-76fe5363d6e
 
-# Real time twitter Stream:
-https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
+# Real time twitter Stream: 
+- [ ] https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js
 
-# Getting to know Flux:
-https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture
-
-
-
-# Handling 'this', how to bind to method
-https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#autobinding
+# Getting to know Flux: 
+- [ ] https://scotch.io/tutorials/getting-to-know-flux-the-react-js-architecture
 
 
 
- 
+# Handling 'this', how to bind to method 
+- [X] https://reactjs.org/blog/2015/01/27/react-v0.13.0-beta-1.html#autobinding
+
+
+# Create React App with an Express Backend 
+- [ ] https://daveceddia.com/create-react-app-express-backend/
+
+# React Tutorial CommentBox
+- [X] https://medium.com/@gsuppy/coding-an-interactive-comment-box-with-react-js-50d7d20587d8
+
+# Setup React without `create-react-app` from scratch
+- [x] https://medium.com/@robhitt/react-from-scratch-575d1e570b85
+
+
+# Using React with Webpack
+https://blog.risingstack.com/using-react-with-webpack-tutorial/
+
+
+
 
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
 
