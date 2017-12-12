@@ -37,7 +37,8 @@ https://www.tutorialspoint.com/reactjs/index.htm
 # Using React with Webpack
 https://blog.risingstack.com/using-react-with-webpack-tutorial/
 
-
+# Redux
+- [x] https://redux.js.org/docs/basics/Actions.html
 
 
 ## Note:
