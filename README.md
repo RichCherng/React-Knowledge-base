@@ -42,8 +42,22 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 
 
 ## Note:
+### Arrow function
+https://medium.com/@reasoncode/javascript-es6-arrow-functions-and-lexical-this-f2a3e2a5e8c4
+```javascript
+const foo = function(a){
+  return a;
+}
 
-- **Destructuring**
+// Arrow function
+// - Also bind "this"
+const foo = (a) => {
+  return a;
+}
+
+const foo = (a) => (a);
+```
+### Destructuring
 - https://amido.com/blog/using-es6-destructuring-in-your-react-components/
 ```javascript
 const Todo = ({ onClick, completed, text }) => (
@@ -70,7 +84,7 @@ const Todo = (props) => (
   </li>
 )
 ```
-
+### setState
 - **setState()** method is used to update the state of the component. This method will not replace the state, but only add changes to the original state.
 
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
