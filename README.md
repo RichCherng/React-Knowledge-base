@@ -43,6 +43,34 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 
 ## Note:
 
+- **Destructuring**
+- https://amido.com/blog/using-es6-destructuring-in-your-react-components/
+```javascript
+const Todo = ({ onClick, completed, text }) => (
+  <li
+    onClick={onClick}
+    style={ {
+      textDecoration: completed ? 'line-through' : 'none'
+    }}
+  >
+    {text}
+  </li>
+)
+```
+same as
+```javascript
+const Todo = (props) => (
+  <li
+    onClick={props.onClick}
+    style={ {
+      textDecoration: props.completed ? 'line-through' : 'none'
+    }}
+  >
+    {props.text}
+  </li>
+)
+```
+
 - **setState()** method is used to update the state of the component. This method will not replace the state, but only add changes to the original state.
 
 Whenever `this.setState` is called, an update to the component is scheduled, causing React to merge in the passed state update and rerender the component along with its descendants.
