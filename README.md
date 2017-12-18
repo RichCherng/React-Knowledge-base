@@ -42,6 +42,9 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 
 
 ## Note:
+### Export (ES6 modules syntax
+http://2ality.com/2014/09/es6-modules-final.html
+There are two kinds of exports: named exports (several per module) and default exports (one per module).
 ### Arrow function
 https://medium.com/@reasoncode/javascript-es6-arrow-functions-and-lexical-this-f2a3e2a5e8c4
 ```javascript
