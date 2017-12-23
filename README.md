@@ -40,6 +40,8 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 # Redux
 - [x] https://redux.js.org/docs/basics/Actions.html
 
+# Airbnb React Styling Guide Line
+- [ ] https://github.com/airbnb/javascript/tree/master/react
 
 ## Note:
 ### Export (ES6 modules syntax
