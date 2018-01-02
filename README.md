@@ -43,6 +43,9 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 # Airbnb React Styling Guide Line
 - [ ] https://github.com/airbnb/javascript/tree/master/react
 
+# Ticking Clock
+- [X] https://openclassrooms.com/courses/build-web-apps-with-reactjs/build-a-ticking-clock-component
+
 ## Note:
 ### Export (ES6 modules syntax
 http://2ality.com/2014/09/es6-modules-final.html
