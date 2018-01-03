@@ -46,6 +46,10 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 # Ticking Clock
 - [X] https://openclassrooms.com/courses/build-web-apps-with-reactjs/build-a-ticking-clock-component
 
+
+# Request Parameters (For future usage)
+- [ ] http://stackabuse.com/get-query-strings-and-parameters-in-express-js/
+
 ## Note:
 ### Export (ES6 modules syntax
 http://2ality.com/2014/09/es6-modules-final.html
