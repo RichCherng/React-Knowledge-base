@@ -52,6 +52,14 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 
 # React Router DOM
 - [x] https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
+
+# CSS
+- [ ] https://css-tricks.com/css-modules-part-3-react/
+- [ ] https://survivejs.com/react/advanced-techniques/styling-react/
+
+
+
+
 ## Note:
 ### Export (ES6 modules syntax
 http://2ality.com/2014/09/es6-modules-final.html
