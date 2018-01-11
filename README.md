@@ -53,10 +53,11 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 # React Router DOM
 - [x] https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
 
+
 # CSS
 - [ ] https://css-tricks.com/css-modules-part-3-react/
-- [ ] https://survivejs.com/react/advanced-techniques/styling-react/
-
+- [X] https://survivejs.com/react/advanced-techniques/styling-react/
+- [ ] https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
 
 
 
