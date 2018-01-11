@@ -60,6 +60,10 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 - [ ] https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822
 
 
+# CSS Transition
+- [ ] https://blog.prototypr.io/using-reactcsstransitiongroup-for-enter-exit-animations-ea100d68e72f
+
+
 
 ## Note:
 ### Export (ES6 modules syntax
