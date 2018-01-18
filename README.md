@@ -3,6 +3,8 @@
 ### Quick Start
 - [X] https://reactjs.org/docs/installation.html#creating-a-new-application
 
+# Full-Stack React w/ Redux, Router, and server side
+- [ ] https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html
 # React Tutorial CommentBox
 - [X] https://medium.com/@gsuppy/coding-an-interactive-comment-box-with-react-js-50d7d20587d8
   ## Quick Start Tutorial: React Redux
