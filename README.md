@@ -65,6 +65,9 @@ https://blog.risingstack.com/using-react-with-webpack-tutorial/
 # CSS Transition
 - [ ] https://blog.prototypr.io/using-reactcsstransitiongroup-for-enter-exit-animations-ea100d68e72f
 
+# What is the difference between ImmutableJS Map() and fromJS()?
+"if you have objects inside arrays or arrays inside objects and want them too to be immutable, your choice is Immutable.fromJS"
+- [x] https://stackoverflow.com/questions/33312922/what-is-the-difference-between-immutablejs-map-and-fromjs
 
 
 ## Note:
