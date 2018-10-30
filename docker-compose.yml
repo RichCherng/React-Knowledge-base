@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dev:
+    build: .
+    # image: node
+    ports: 
+      - "8080:8080"
+    volumes:
+      - .:/usr/workspace
+    container_name: dev_env
+    stdin_open: true
+    tty: true

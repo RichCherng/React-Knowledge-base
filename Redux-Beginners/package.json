@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development",
+    "docker-run" : "webpack-dev-server --host 0.0.0.0 --inline --content-base"
   },
   "keywords": [],
   "author": "",
